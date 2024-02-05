@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #000018;
+}
+.contentbox{
+    background-color: white;
+    height: 600px;
+    width: 450px;
+    border-radius: 20px;
+    margin-top: 70px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.logo svg{
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+}
+.logo p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: rgb(139, 137, 137);
+}
+.p1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr{
+    width: 90%;
+    margin: auto;
+}
+.h61{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.input input{
+    padding: 8px 160px 8px 40px;
+    border: 1px solid;
+}
+.brandlogos{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.brandlogos img{
+    width: 50px;
+}
+.upilogo img{
+    width: 80px;
+}
+.upilogo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+.bankname{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    padding-bottom: 30px;
+    padding-top: 57px;
+    text-decoration: underline;
+}
+.btn{
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.dbtn{
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.qrcenter{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
